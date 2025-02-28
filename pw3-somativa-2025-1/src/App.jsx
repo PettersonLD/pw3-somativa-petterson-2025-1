@@ -1,22 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import BookCard from './BookCard'
 import './App.css'
-
+ 
+import NavBar from './components/layout/NavBar'
+import Container from './components/Layout/Container'
+ 
 function App() {
-
+ 
   return (
     <>
       <div>
-        <h1>PW3-WebApp-Livraria</h1>
-        <BookCard
-        Titulo = "As Cavernas de Aço"
-        Autor = "Isaac Azimov"
-        />
+ 
+        <NavBar />
+ 
+        <Container>
+          <img src="./book_home" alt="" />
+        </Container>
+ 
       </div>
     </>
   )
 }
-
+ 
 export default App
+ 
