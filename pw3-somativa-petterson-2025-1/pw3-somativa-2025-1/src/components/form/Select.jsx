@@ -16,9 +16,7 @@ function Select({text, name, id, handlerChange, options}) {
                 }
 
             </select>
-                <div>
-                    
-                </div>
+                
         </div>
     )
 }

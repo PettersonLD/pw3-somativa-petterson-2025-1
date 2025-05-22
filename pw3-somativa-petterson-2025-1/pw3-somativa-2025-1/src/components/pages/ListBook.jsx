@@ -4,7 +4,7 @@ import style from './ListBook.module.css'
 import cavernas from '../../assets/cavernas_aco.jpg';
 
 import BookCard from "../BookCard";
-import ContainerBook from "../layout/ContainerBook";
+import ContainerBook from "../Layout/ContainerBook";
 
 const ListBook = ()=>{
 
@@ -42,7 +42,6 @@ const ListBook = ()=>{
                     books.map((book)=>(
                         
                         <BookCard 
-                            cod_livro={book.cod_livro}
                             nome_livro = {book.nome_livro}
                             autor_livro = {book.autor_livro}
                             imagem = {cavernas}
